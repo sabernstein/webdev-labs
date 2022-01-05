@@ -9,3 +9,24 @@ body {
 /*
 Add some style blocks below this line to style the card.
 */
+
+.card {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid grey;
+    box-shadow: 1px 2px solid grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+.image {
+    width: 100%;
+}
+
+.button {
+    margin-bottom: 20px;
+}
+
+#text-shift {
+    margin-left: 20px;
+}

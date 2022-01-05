@@ -11,14 +11,56 @@ Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
 */
 
+/* Desktop Media Query */
+@media only screen and (max-width: 1281px) {
+    .desktop {
+        display: block;
+    }
+}
 
 /* Tablet Media Query */
-@media only screen and (max-width: 1000px) {
-
+@media only screen and (max-width: 700px) {
+    .tablet{
+        display: block;
+    }
 }
 
 /* Mobile Phone Media Query */
-@media only screen and (max-width: 600px) {
-
+@media only screen and (max-width: 350px) {
+    .smartphone{
+        display: block;
+    }
     
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+}
+
+.card {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid grey;
+    box-shadow: 1px 2px solid grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+p, h2 {
+    margin-left: 20px;
+}
+
+h1 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
 }
