@@ -8,11 +8,16 @@ body {
 }
 
 header {
+    font-size: 20px;
     padding: 3vh;
     background: #EEE;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+li:hover {
+    background-color: rgb(255, 191, 255);
 }
 
 nav ul {
